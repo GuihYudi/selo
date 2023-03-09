@@ -16,7 +16,7 @@
         <img src="_img/logo.png" alt="logotipo">
     </div>
     <div class="title-right">
-        <h1>SIMULADOR DE ESPESSURAS DE LENTES OFTÁLMICAS</h1>
+        <h1>SIMULADOR DE ESPESSURAS DE LENTES OFTÁLMICAS </h1>
     </div>
 </div>
         <div class="menu">
