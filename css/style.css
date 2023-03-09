@@ -1,0 +1,252 @@
+*{margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.cabecalho{
+    display: flex;
+    width: 100vw;
+    height: 13vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(18, 18, 100);
+    z-index: 1;
+    box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.68);
+}
+
+.image-left{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.image-left > img{
+    width: 7vw;
+   
+}
+
+.title-right{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.title-right > h1{
+    font-size: 25pt;
+    color: #f26200;
+}
+
+.menu{
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000056;
+}
+
+.links{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.links > a{
+    text-decoration: none;
+    color: black;
+    margin: 40px;
+    font-weight: 800;
+}
+
+.login{
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.login > img{
+    width: 1.5vw;
+}
+
+.login > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    margin-right: 15px;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+.content{
+    background-color: rgb(218, 211, 215);
+    width: 100vw;
+    height: 77vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+input{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 30px;
+    font-size: 2vw;
+    font-weight: 800;
+    color: #f26200;
+    background-color: rgb(240, 228, 228);
+    -webkit-box-shadow: 6px 9px 42px -4px rgba(28,11,156,0.78);
+    -moz-box-shadow: 6px 9px 42px -4px rgba(28,11,156,0.78);
+    box-shadow: 6px 9px 42px -4px rgba(28,11,156,0.78);
+}
+
+
+
+
+
+
+
+
+
+
+.rodape{
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(18, 18, 100);
+    color: #f26200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+   
+
+}
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+  }
+  .modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 10px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+  }
+
+  .close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+  }
+  .close:hover {
+    background: #ff0000;
+  }
+
+  h2{
+    font-size: 2.3vw;
+    color: rgb(18, 18, 100);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  p{
+    text-align: justify;
+    font-size: 1.7vw;
+  }
+
+@media only screen and (max-width: 950px){
+    .cabecalho{
+        width: 100vw;
+    }
+    .menu{
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .cabecalho{
+        flex-direction: column;
+    }
+    .image-left > img{
+        width: 50vw;
+    }
+    .title-right > h1{
+        display: none;
+    }
+    .menu{
+        flex-direction: column;
+        height: auto;
+    }
+    .links{
+        flex-direction: column;
+        height: auto;
+    }
+    .links > a{
+        text-decoration: none;
+        color: black;
+        margin: 0px;
+        font-weight: 800;
+    }
+    .login{
+        flex-direction: column;
+        height: auto;
+    }
+    .login > img{
+        display: none;
+    }
+    .login > a{
+        text-decoration: none;
+        color: black;
+        font-weight: 800;
+    }
+}

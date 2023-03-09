@@ -1,0 +1,150 @@
+*{margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.cabecalho{
+    display: flex;
+    width: 100vw;
+    height: 13vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(18, 18, 100);
+    z-index: 1;
+    box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.68);
+}
+.menu{
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000056;
+}
+.title-center{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    font-size: 15px;
+}
+.image-left{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.image-left > img{
+    width: 7vw;
+   
+}
+
+.title-right{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.title-right > h1{
+    font-size: 25pt;
+    color: #f26200;
+}
+.links{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.links > a{
+    text-decoration: none;
+    color: black;
+    margin: 40px;
+    font-weight: 800;
+}
+.login{
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.login > img{
+    width: 1.5vw;
+}
+
+.login > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    margin-right: 15px;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+.content{
+    background-color: rgb(218, 211, 215);
+    width: 100vw;
+    height: 77vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-y: scroll;
+}
+.card{
+    width: 75vw;
+    height: 35vh;
+    margin-left:auto;
+    margin-right: auto;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px 35px;
+    background-color: rgba(112, 110, 110, 0.3);
+    border-radius: 20px;
+}
+.card-contatos{
+    width: 13vw;
+    height: 27vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: rgba(73, 72, 72, 0.2);
+    border-radius: 20px;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+.linha{
+    border-color: black;
+    align-items: center;
+}
+.rodape{
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(18, 18, 100);
+    color: #f26200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+   
+
+}
