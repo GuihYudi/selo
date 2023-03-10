@@ -72,7 +72,7 @@ session_start();
                     <h3>Lente Olho Esquerdo</h3>
                     <div class="card1">
                         <div class="row">
-                            <label for="material">Testezinho</label>
+                            <label for="material">MATERIAL</label>
                             <select name="material" id="material"><option value ="none"></option><option value ="cr">CR39 1.49</option><option value ="trivex">TRIVEX 1.53</option><option value ="poly">POLY 1.59</option><option value ="1.60">RES. 1.60</option><option value ="1.67">RES. 1.67</option><option value ="1.74">RES. 1.74</option>
                             </select>
                         </div>
