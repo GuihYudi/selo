@@ -5,7 +5,7 @@
 
   try
   {
-    $conexao = new PDO($_dns, $_usuario, $_senha);
+    $pdo = new PDO($_dns, $_usuario, $_senha);
 
   }
    catch(PDOException $erro)

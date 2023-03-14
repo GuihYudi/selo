@@ -19,11 +19,11 @@
 				<form action="cadastrobd.php" method="POST">
                 <div class="textfield">
                     <label for="nome">NOME</label>
-                    <input type="text" name="nome" id="nome">
+                    <input type="text" name="nome" id="nome" required>
                 </div>
                 <div class="textfield">
                     <label for="endereco">ENDEREÇO</label>
-                    <input type="text" name="endereco" id="endereco">
+                    <input type="text" name="endereco" id="endereco" required>
                 </div>
                 <div class="textfield2">
 					<div class="left">
@@ -32,27 +32,27 @@
 					</div>
 					<div class="right">
 						<label for="telefone">TELEFONE</label>
-						<input type="text" name="telefone" id="telefone">
+						<input type="tel" name="telefone" id="telefone" required placeholder="(xx) xxxxx-xxxx">
 					</div>
                 </div>
                 <div class="textfield2">
                     <div class="left">
                         <label for="cpf">CPF</label>
-                        <input type="text" name="cpf" id="cpf">
+                        <input type="text" name="cpf" id="cpf" required>
                     </div>
                     <div class="right">
                         <label for="rg">RG</label>
-                        <input type="text" name="rg" id="rg">
+                        <input type="text" name="rg" id="rg" required>
                     </div>
                 </div>
 				<div class="textfield2">
 					<div class="left">
 						<label for="usuario">USUÁRIO</label>
-						<input type="text" name="usuario" id="usuario">
+						<input type="text" name="usuario" id="usuario" required>
 					</div>
 					<div class="right">
 						<label for="senha">SENHA</label>
-						<input type="password" name="senha" id="senha">
+						<input type="password" name="senha" id="senha" required>
 					</div>
 				</div>
                 <input class="btn-login" type="submit" value="CADASTRAR">

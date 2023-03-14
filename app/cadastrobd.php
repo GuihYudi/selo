@@ -20,7 +20,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')
 	require_once("../_conexao/conexao.php");
     try
     {
-        $comandoSQL = $conexao->prepare("INSERT INTO `user`(`nomeUser`, `endUser`, `emailUser`, `telUser`, `cpfUser`, `rgUser`, `usuarioUser`, `senhaUser`) VALUE (:nome, :endereco, :email, :telefone, :cpf, :rg, :usuario, :senha)"); 
+        $comandoSQL = $pdo->prepare("INSERT INTO `user`(`nomeUser`, `endUser`, `emailUser`, `telUser`, `cpfUser`, `rgUser`, `usuarioUser`, `senhaUser`) VALUE (:nome, :endereco, :email, :telefone, :cpf, :rg, :usuario, :senha)"); 
         $comandoSQL->execute(array(
             ':nome'     =>$nome,
             ':endereco' =>$endereco,
@@ -35,7 +35,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')
         ));
         if($comandoSQL->rowCount()>=0)
         {
-            echo "<script>alert('Cadastro efetuado com Sucesso!');</script>";
+           echo "<script>alert('Cadastro efetuado com Sucesso!');</script>";
             echo("<meta http-equiv='refresh' content='0; login.php'>");
         }
         else

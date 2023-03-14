@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/style_login.css">
 </head>
 <body>
-<form action="logar.php" method="POST">
+<form action="validate.php" method="POST">
     <div class="main-login">
         <div class="left-login">
             <img src="../_img/logo.png" class="left-login-image" alt="logotipo">
@@ -28,6 +28,15 @@
                     <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
                 </div>
                 <button class="btn-login">Login</button>
+                <p class="danger">
+
+             <?php
+                if (isset($_SESSION['msg'])){
+                echo $_SESSION['msg'];
+                unset($_SESSION['msg']);
+            }
+      ?>
+</p>
             </div>
         </div>
     </div>
