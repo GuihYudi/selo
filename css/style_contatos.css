@@ -6,6 +6,11 @@
     background-color: aliceblue;
 }
 
+body{
+    background-color: aliceblue;
+}
+
+
 .cabecalho{
     display: flex;
     width: 100vw;
@@ -114,7 +119,7 @@ a:hover{
     align-items: center;
     flex-direction: row;
     padding: 30px 35px;
-    background-color: rgba(112, 110, 110, 0.3);
+    background-color: rgba(13, 13, 71, 0.4);
     border-radius: 20px;
 }
 .card-contatos{

@@ -44,6 +44,9 @@ if($tipo == 'Acetato'){
 
             $em = 2.2;
 
+            //cálculo de espessura de centro
+            $ec = 
+
             }elseif($esfod >= 1.25) && ($esfod <= 2.00){
 
                 $em = 2.0;
@@ -79,6 +82,12 @@ if($tipo == 'Acetato'){
                                             }elseif($esfod <= -4.25){
 
                                                 $em = 1.8;
+
+                                                }else{
+                                                
+                                                    echo("Valor de Dioptria não informado!")
+                                                
+                                                }
 
 
         }elseif($material == 'TRIVEX 1.53'){

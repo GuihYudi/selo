@@ -38,12 +38,6 @@
                 </a>
                 <p>Telefone</p>
             </div>
-            <div class="card-contatos">
-                <a href="https://ig.me/m/guih_yudi" target="_blank">
-                    <input type="image" src="../_img/insta.jpg" height="170" width="170">
-                </a>
-                <p>Instagram</p>
-            </div>
 </div>
         </div>
         <div class="rodape">
