@@ -21,7 +21,7 @@
 
                 <a href="#close" title="Close" class="close">X</a>
                 <h2>Visão Simples</h2>
-                <p>Para os problemas de visão como, por exemplo, miopia, hipermetropia e astigmatismo, os profissionais da saúde recomendam o uso de lentes para visão simples.
+                <p>aPara os problemas de visão como, por exemplo, miopia, hipermetropia e astigmatismo, os profissionais da saúde recomendam o uso de lentes para visão simples.
                 Esse tipo de lente atende também pelo nome de monofocal, sendo a sua função corrigir um campo de visão para uma única distância: perto ou longe.</p>
                 </div>
             </div>
