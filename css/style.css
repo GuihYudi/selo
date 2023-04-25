@@ -14,7 +14,7 @@
     justify-content: center;
     background-color: rgb(18, 18, 100);
     z-index: 1;
-    box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.68);
+   
 }
 
 .image-left{
@@ -94,7 +94,7 @@ a:hover{
 }
 
 .content{
-    background-color: rgb(218, 211, 215);
+    background-color:aliceblue;
     width: 100vw;
     height: 77vh;
     display: flex;
@@ -112,9 +112,7 @@ input{
     font-weight: 800;
     color: #f26200;
     background-color: rgb(240, 228, 228);
-    -webkit-box-shadow: 6px 9px 42px -4px rgba(28,11,156,0.78);
-    -moz-box-shadow: 6px 9px 42px -4px rgba(28,11,156,0.78);
-    box-shadow: 6px 9px 42px -4px rgba(28,11,156,0.78);
+    
 }
 
 

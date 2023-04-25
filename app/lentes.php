@@ -7,18 +7,6 @@
     <link rel="icon" href="../_img/icon.png" type="image/png">
     <link rel="stylesheet" href="../css/style.css">
     <title>SELO - Lentes</title>
-    <script type="text/javascript">
-<!--
-function abrirJanela(pagina, largura, altura) {
- // Definindo centro da tela
- var esquerda = (screen.width - largura)/2;
- var topo = (screen.height - altura)/2;
-
- // Abre a nova janela
- minhaJanela = window.open(pagina,'','height=' + altura + ', width=' + largura + ', top=' + topo + ', left=' + esquerda);
-}
--->
-</script>
 </head>
 <body>
     <div class="main">
@@ -28,9 +16,9 @@ function abrirJanela(pagina, largura, altura) {
         
         <div class="content">
             <a href="#openModal"><input type="button" value="Visão Simples" id="vs" style= "cursor:pointer"></a>
+            <div id="openModal" class="modalDialog">
+            <div>
 
-                <div id="openModal" class="modalDialog">
-                <div>
                 <a href="#close" title="Close" class="close">X</a>
                 <h2>Visão Simples</h2>
                 <p>Para os problemas de visão como, por exemplo, miopia, hipermetropia e astigmatismo, os profissionais da saúde recomendam o uso de lentes para visão simples.
