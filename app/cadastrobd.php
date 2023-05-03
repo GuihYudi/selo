@@ -38,7 +38,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')
         if($comandoSQL->rowCount()>=0)
         {
            echo "<script>alert('Cadastro efetuado com Sucesso!');</script>";
-            echo("<meta http-equiv='refresh' content='0; login.php'>");
+            echo("<meta http-equiv='refresh' content='0; ../app/pages/login.php'>");
         }
         else
         {

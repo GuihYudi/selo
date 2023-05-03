@@ -26,11 +26,11 @@ include("../_conexao/conexao.php");
 
 				if(password_verify($senha, $usuario['senhaUser']) == false){
 					$_SESSION['msg'] = "Usuário e senha incorretos.";	
-					header("location:login.php");	
+					header("location:../app/pages/login.php");	
 					
 				}else{
 					echo "<script>alert('Login efetuado com sucesso!');</script>"; 
-					header("location:simuladorv2.php");
+					header("location:../app/pages/simuladorv2.php");
 				
 				}
 

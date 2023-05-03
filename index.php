@@ -18,16 +18,16 @@
     </div>
     <div class="menu">
         <div class="links">
-                <a href="app/index.php">HOME</a>
-                <a href="app/lentes.php">TIPOS DE LENTES</a>
-                <a href="app/materiais.php">MATERIAIS</a>
-                <a href="app/contatos.php">CONTATOS</a>
+                <a href="index.php">HOME</a>
+                <a href="app/pages/lentes.php">TIPOS DE LENTES</a>
+                <a href="app/pages/materiais.php">MATERIAIS</a>
+                <a href="app/pages/contatos.php">CONTATOS</a>
         </div>
         <div class="login">
-                <img src="../_img/cadastro.png" alt="cadastro">
-                <a href="cadastro.php" target="_blank" rel="noopener noreferrer">CADASTRO</a>
-                <img src="../_img/user.png" alt="user">
-                <a href="login.php" target="_blank" rel="noopener noreferrer">LOGIN</a>
+                <img src="_img/cadastro.png" alt="cadastro">
+                <a href="app/pages/cadastro.php" target="_blank" rel="noopener noreferrer">CADASTRO</a>
+                <img src="_img/user.png" alt="user">
+                <a href="app/pages/login.php" target="_blank" rel="noopener noreferrer">LOGIN</a>
             </div>
     </div>
 </div>
@@ -37,7 +37,7 @@
                     <h1>Uma ferramenta feita para você</h1>
                     <p>Com ela você poderá simular espessuras de centro e bordas das lentes tendo como base os materiais e índices existentes no mercado. </p>
                     <div class="btn">
-                        <a href="app/cadastro.php" target="_blank">Começe agora  ⇨</a>
+                        <a href="app/pages/cadastro.php" target="_blank">Começe agora  ⇨</a>
                     </div>
                 </div>
                 <div class="img">

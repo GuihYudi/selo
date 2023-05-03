@@ -9,25 +9,25 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style_v2.css">
-    <link rel="icon" href="../_img/icon.png" type="image/png">
+    <link rel="stylesheet" href="../../css/style_v2.css">
+    <link rel="icon" href="../../_img/icon.png" type="image/png">
     <title>SimuladorV2</title>
 </head>
 <body>
 <div class="cabecalho">
         <div class="logo">
-            <img src="../_img/logo.png" alt="Logo">
+            <img src="../../_img/logo.png" alt="Logo">
         </div>
         <div class="title">
             <h1>Bem vindo ao Simulador</h1>
         </div>
         <div class="logout">
-            <img src="../_img/logout.png" alt="logout">
-            <a href="logout.php" rel="noopener noreferrer" onclick="<?session_destroy();?>">Logout</a>
+            <img src="../../_img/logout.png" alt="logout">
+            <a href="../logout.php" rel="noopener noreferrer" onclick="<?session_destroy();?>">Logout</a>
         </div>
 </div>
         <div class="armacao">
-            <form method="POST" action="calculos.php">
+            <form method="POST" action="../calculos.php">
             <h3>Dados da Armação</h3>
                 <div class="card">
                     <div class="row">
@@ -94,7 +94,7 @@ session_start();
                     </div>
                 </div>
                 <div class="image">
-                    <img src="../_img/modelo de medidas.png" alt="modelinho">
+                    <img src="../../_img/modelo de medidas.png" alt="modelinho">
                 </div>
                 <div class="od">
                     <h3>Lente Olho Direito</h3>
