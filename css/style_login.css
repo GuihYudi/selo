@@ -6,7 +6,8 @@
 .main-login{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(23, 23, 182);
+    background: rgb(54,54,150);
+    background: linear-gradient(180deg, rgba(54,54,150,1) 0%, rgba(10,0,177,1) 50%, rgba(85,85,249,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,7 +78,7 @@
 }
 
 .textfield > label{
-    color: #f0ffffde;
+    color: #ffffff;
     margin-bottom: 10px;
     font-size: 20pt;
     font-weight: 800;

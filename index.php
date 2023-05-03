@@ -34,8 +34,10 @@
         <div class="content">
            <div class="textimg">
                 <div class="text">
-                    <h1>Uma ferramenta feita para você</h1>
+                    <h1>Uma ferramenta criada pensando em você</h1>
+                    <br>
                     <p>Com ela você poderá simular espessuras de centro e bordas das lentes tendo como base os materiais e índices existentes no mercado. </p>
+                    <br>
                     <div class="btn">
                         <a href="app/pages/cadastro.php" target="_blank">Começe agora  ⇨</a>
                     </div>
