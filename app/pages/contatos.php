@@ -15,17 +15,20 @@
         ?>
        
         <div class="content">
-        <a href="https://wa.me/5518997007921?text=Ol%C3%A1,%20poderia%20me%20ajudar?"  id="whats" target="_blank" >
-        <input type="image" src="../../_img/whats.png" height="170" width="170">
-        </a>
-       
-        <a href="#" target="_blank">
-        <input type="image" src="../../_img/gmail.png" height="190" width="200">
-        </a>
-               
-        <a href="#" target="_blank">
-        <input type="image" src="../../_img/tel.jpg" height="170" width="170">
-        </a>
+            <div class="section">
+                <a href="https://wa.me/5518997007921?text=Ol%C3%A1,%20poderia%20me%20ajudar?"  id="whats" target="_blank" >
+                    <input type="image" src="../../_img/whats.png" height="170" width="170">
+                </a>
+
+            <a href="#" target="_blank">
+                <input type="image" src="../../_img/gmail.png" height="190" width="200">
+            </a>
+        
+            <a href="#" target="_blank">
+                <input type="image" src="../../_img/tel.jpg" height="170" width="170">
+            </a>
+        </div>
+
     </div>
             </div>
             <div class="rodape">

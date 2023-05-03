@@ -116,3 +116,16 @@ input{
    
 
 }
+.section{
+    width: 80vw;
+    height:35vh;
+    background-color: #d8dfe6ad;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    border-radius:40px;
+    border-color: #000000, 0, 0;
+    border: solid 2px #000000;
+
+}
