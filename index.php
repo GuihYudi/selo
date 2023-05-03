@@ -49,7 +49,7 @@
 
         </div>
         <div class="rodape">
-            SELO ©, 2023. Todos os direitos reservados
+            SELO © 2023. Todos os direitos reservados
         </div>
     </div>
         

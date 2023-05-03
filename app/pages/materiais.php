@@ -98,7 +98,7 @@ function abrirJanela(pagina, largura, altura) {
         
 
         <div class="rodape">
-            SELO ©, 2022. Todos os direitos reservados
+            SELO © 2023. Todos os direitos reservados
         </div>
     </div>
 </body>
