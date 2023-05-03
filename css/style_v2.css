@@ -11,7 +11,7 @@ body{
 .cabecalho{
     width: 100vw;
     height: 15vh;
-    background-color: rgb(13, 13, 71);
+    background-color: rgb(23, 23, 182);
     display: flex;
     align-items: center;
 }
@@ -93,7 +93,7 @@ h3{
     margin: auto;
     width: 75vw;
     height: 10vh;
-    background-color: rgba(13, 13, 71, 0.4);
+    background-color: rgba(40, 40, 190, 0.4);
     display: flex;
     border-radius: 20px;
 }
@@ -150,14 +150,14 @@ option:hover{
     margin: auto;
     width: 20vw;
     height: 20vh;
-    background-color: rgba(13, 13, 71, 0.4);
+    background-color: rgba(40, 40, 190, 0.4);
     border-radius: 20px;
 }
 .row{
   
     display: flex;
     justify-content: space-between;
-    margin: 15px;
+    margin: 12px;
 }
 
 .row > label{
@@ -190,7 +190,7 @@ select{
     align-items: center;
     margin-left: 15px;
     margin-right: 15px;
-    background-color: rgba(13, 13, 71, 0.4);
+    background-color: rgba(40, 40, 190, 0.4);
     color: black;
 }
 

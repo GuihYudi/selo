@@ -16,7 +16,8 @@ if($_SERVER['REQUEST_METHOD']=='POST')
     $rg = filter_input(INPUT_POST, 'rg', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
     $usuario = filter_input(INPUT_POST, 'usuario', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 	$senha = filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-	
+
+    
 	require_once("../_conexao/conexao.php");
     try
     {
@@ -33,6 +34,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')
 			
 			
         ));
+
         if($comandoSQL->rowCount()>=0)
         {
            echo "<script>alert('Cadastro efetuado com Sucesso!');</script>";
@@ -42,6 +44,8 @@ if($_SERVER['REQUEST_METHOD']=='POST')
         {
             echo("ERRO: NO CADASTRO.");
         }
+ 
+
     }catch(PDOException $erro)
     {
         echo("ERRO:".$erro->getCode()."<br>");
