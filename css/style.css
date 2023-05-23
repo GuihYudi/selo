@@ -85,9 +85,9 @@ a:hover{
 }
 
 .content{
-    background-color:aliceblue;
+    background-color:rgb(221, 236, 248);
     width: 100vw;
-    height: 77vh;
+    height: 85vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

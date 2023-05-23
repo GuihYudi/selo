@@ -9,15 +9,14 @@ $ponte = $_POST('ponte');
 $mha = $_POST('mha');
 $mva = $_POST('mva');
 $dma = $_POST('dma');
+$material = $_POST('material');
 
 //declaração de variáveis olho esquerdo
-$materialoe = $_POST('materialoe');
 $dnpoe = $_POST('dnpoe');
 $esfoe = $_POST('esfoe');
 $ciloe = $_POST('ciloe');
 
 //declaração de variáveis olho direito
-$materialod = $_POST('materialod');
 $dnpod = $_POST('dnpod');
 $esfod = $_POST('esfod');
 $cilod = $_POST('cilod');
@@ -25,6 +24,30 @@ $cilod = $_POST('cilod');
 //calculo de diâmetro
 $dmoe = $ponte + $mha - ($dnpoe * 2) + $dma;
 $dmod = $ponte + $mha - ($dnpod * 2) + $dma;
+
+
+
+switch ($tipo) {
+  case "Acetato":
+        include("include/escolha_material.php");
+    break;
+  case "Metal":
+        include("include/escolha_material.php");
+    break;
+  case "Fio de Nylon":
+        include("include/escolha_material.php");
+    break;
+  case "Segurança":
+        include("include/escolha_material.php");
+    break;
+  case "Parafuso":
+        include("include/escolha_material.php");
+    break;
+  default:
+        echo "Houve um erro";
+        return;
+    ;
+}
 
 //calculos para armação acetato
 if($tipo == 'Acetato'){
